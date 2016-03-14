@@ -71,3 +71,27 @@ $which python3.5
 ```
 
 
+### Flask
+
+####安装
+
+```shell
+pip3 install Flask
+```
+
+#### DOC
+
+- [doc](http://flask.pocoo.org/) [doc](http://dormousehole.readthedocs.org/en/latest/)
+
+
+### Tornado
+
+- [Tornado DOC](http://demo.pythoner.com/itt2zh/index.html)
+- [Tornado DOC](http://www.tornadoweb.org/)
+- [Tornado DOC zh](http://www.tornadoweb.cn/)
+
+
+### 部署
+
+ngingx + gunicorn
+

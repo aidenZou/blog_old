@@ -37,6 +37,7 @@
 - [前端工程——基础篇](http://div.io/topic/1275)
 - [ES5, ES6, ES2016, ES.Next: JavaScript 的版本是怎么回事？「译」](http://huangxuan.me/2015/09/22/js-version/)
 - [NPM 与前端包管理](https://github.com/cssmagic/blog/issues/57)
+- [让需求来得再猛烈些——快速响应需求的天猫H5首页新架构](https://github.com/tmallfe/tmallfe.github.io/issues/35)
 
 - [JavaScript事件代理和委托（delegate）](http://blog.csdn.net/majian_1987/article/details/8591385)
 
@@ -358,6 +359,7 @@
 
 ## 工具
 
+- [在线 H5场景](http://h5.baidu.com/store)
 - [httpie](https://github.com/jkbrzt/httpie) CLI HTTP client
 
 ### Mock数据
