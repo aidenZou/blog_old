@@ -21,5 +21,31 @@ docker还提供了一种高级的用法。叫数据卷
 > --volumes-from 用来指定要从哪个数据卷来挂载数据。
 
 
+OS X
 
+`eval $(docker-machine env default)`
+
+```shell
+➜  ~ docker ps
+Cannot connect to the Docker daemon. Is the docker daemon running on this host?
+➜  ~ eval $(docker-machine env default)
+➜  ~ docker ps
+CONTAINER ID        IMAGE                           COMMAND                  CREATED             STATUS              PORTS                      NAMES
+bcac56198b24        mongo:latest                    "/entrypoint.sh mongo"   4 weeks ago         Up 8 hours          0.0.0.0:27017->27017/tcp   mongo
+00c0f6fd8ca5        daocloud.io/daocloud/daomonit   "/usr/local/bin/daomo"   5 weeks ago         Up 10 hours                                    daomonit
+```
+
+`docker-machine ssh default`
+
+
+## 
+
+建立镜像
+
+docker build -t ipython/notebook .
+
+指令启动容器
+
+`docker run -p 80:80 my-front-end-app`
+`docker run -d -p 8888:8888 -e PASSWORD=admin ipython/notebook`
 

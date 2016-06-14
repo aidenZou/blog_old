@@ -61,6 +61,11 @@ autojump v22.2.4
 
 - [oh-my-zsh Wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins-Overview)
 
+# 历史记录，按⌘+Shift+h弹出历史记录窗口。
+
+
+[iTerm2 指南](http://wdxtub.com/2016/03/20/iterm2-guide/)
+
 
 ## 命令行启动 Sublime Text
 

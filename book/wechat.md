@@ -1,9 +1,14 @@
 
 ## 微信公众号资料
 
+### 黑科技
+
+`//triggerWebViewCacheCleanup` 来清缓存！
+
 ## 官方
 
 - [在线接口调试工具](http://mp.weixin.qq.com/debug)
+- [新 微信公众平台开发者文档](https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421141115&token=&lang=zh_CN)
 - [微信公众平台开发者文档](http://mp.weixin.qq.com/wiki/home/index.html)
 - [全局返回码说明](http://mp.weixin.qq.com/wiki/10/6380dc743053a91c544ffd2b7c959166.html)
 - [Web开发者工具](http://www.weixin.com/forum.php)

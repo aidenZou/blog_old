@@ -4,6 +4,7 @@
 
 > 非常欢迎您的 添加 和 修改（issues） 来共同完善常用lib，让 Web开发更简单和快捷
 
+- [前端技能汇总 Frontend Knowledge Structure](https://github.com/JacksonTian/fks)
 - [鼓励师](http://miku-dancing.coding.io/)
 - [md语法](http://nextstepwebs.github.io/simplemde-markdown-editor/markdown-guide)
 - [ECMAScript 6入门](http://es6.ruanyifeng.com/)
@@ -16,6 +17,8 @@
 ## 常用
 
 - [颜色](http://s.codepen.io/aidenzou/debug/EPLBmK)
+- [Material design](https://www.google.com/design/spec/material-design/introduction.html)
+- [UA解析库](http://fex.baidu.com/ua-device/)
 
 
 ## 路漫漫其修远兮，吾将上下而求索
@@ -38,8 +41,15 @@
 - [ES5, ES6, ES2016, ES.Next: JavaScript 的版本是怎么回事？「译」](http://huangxuan.me/2015/09/22/js-version/)
 - [NPM 与前端包管理](https://github.com/cssmagic/blog/issues/57)
 - [让需求来得再猛烈些——快速响应需求的天猫H5首页新架构](https://github.com/tmallfe/tmallfe.github.io/issues/35)
+- [网上都说操作真实 DOM 慢，但测试结果却比 React 更快，为什么？](https://www.zhihu.com/question/31809713)
+- [如何简单区分Web前后端与MVC](https://github.com/calidion/calidion.github.io/issues/3)
 
 - [JavaScript事件代理和委托（delegate）](http://blog.csdn.net/majian_1987/article/details/8591385)
+
+- [Ajax跨域问题解决方案](http://w3cboy.com/post/2015/01/ajax%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/)
+
+- [为什么说DOM操作很慢](https://leozdgao.me/why-dom-slow/)
+
 
 ## 数据
 
@@ -50,12 +60,22 @@
 
 - [变量取名](http://unbug.github.io/codelf/#%E6%96%B0%E5%B9%B4) “计算机科学的两件难事：缓存失效和命名。”
 
+### 抓包
+
+- [抓包神器Fiddler](http://w3cboy.com/post/2015/03/%E6%8A%93%E5%8C%85%E7%A5%9E%E5%99%A8Fiddler/)
+
+
+## ICON
+
+- [icono](https://github.com/saeedalipoor/icono)
+
 
 ## iconfont
 
 - [Iconfont-阿里巴巴矢量图标库](http://www.iconfont.cn/)
 - [IcoMoon](https://icomoon.io/)
 - [Font Awesome](http://fontawesome.io/) [中文](http://fontawesome.dashgame.com/)
+
 
 ### 加载
 
@@ -68,15 +88,26 @@
 - [Vue](https://github.com/vuejs/vue)
   - [Vue资料总汇](http://www.jianshu.com/p/afd8e1db7d9b)
   - [Vue 中文社区](http://www.vue-js.com/)
+  - [VUE-devtools](https://github.com/vuejs/vue-devtools) 调试工具 Chrome的扩展
+  - [Vue.js相关](https://github.com/vuejs/awesome-vue)
+  - [vue-mui](https://github.com/creatshare/vue-mui)
 
 ##### Other
 
 - [React](https://github.com/facebook/react)
+- [elm](http://elm-lang.org/) 在浏览器中的函数式编程
 
 #### Angular
 
 - [UI Bootstrap](https://github.com/angular-ui/bootstrap) 基于 AngularJS & Bootstrap
 - [LumX](http://ui.lumapps.com/) 基于 AngularJS & Material Design 的框架
+
+> 脏检查的原理是：我们所有的对数据的赋值，都是在某些特性场景下触发的，比如：
+		- UI事件
+		- 网络事件
+		- 定时器
+	如果在每次操作之后，对数据保留一份复制，然后下一次再有事件发生的时候，把新老数据进行比对，就可以判定哪些数据产生了变更，从而可以更新关联的界面。
+
 
 #### React
 
@@ -90,8 +121,10 @@
 
 ### 前端工具
 
+- [DevTools an Animated Journey 2016](http://umaar.github.io/devtools-animated-2016/#/)
 - [VanillaJS](http://vanilla-js.com/) 最快的 JS(没有之一)
 - [is.js](https://github.com/arasatasaygin/is.js) 这被描述为“微型检查库”，它提供了一个很好的API，允许你做各种数据进行检测。
+- [userAgent解析库](https://github.com/fex-team/ua-device) ua-device.js是由Baidu WebFE(FEX)团队开发的一个用于解析UA来得到用户终端信息的JS框架。
 - [VisSense.js](https://github.com/vissense/vissense) 一个DOM元素的观测能见度变化的实用工具库。
 - [Roll](https://github.com/williamngan/roll) 帮助你跟踪位置、滚动、和分页的JS库
 - [clipboard.js](https://github.com/zenorocha/clipboard.js/) 拷贝文字到剪切板的现代化方法
@@ -105,27 +138,76 @@
 - [Device detection (phone, tablet, desktop, mobile grade, os, versions) ](https://github.com/hgoebl/mobile-detect.js)
 - [jsqrcode](https://github.com/LazarSoft/jsqrcode) Javascript的QRCode的扫描仪(依赖一个叫getUserMedia的属性)
 - [Mobiscroll](http://www.mobiscroll.com/)
+- [Moment](http://momentjs.cn/) JavaScript 日期处理类库
+- [QRCode](https://github.com/davidshimjs/qrcodejs)
+- [](https://github.com/hubspot/offline) 自动显示在线/离线显示给用户
 
 
 #### 下载
 
 - [plupload](http://www.plupload.com/)
 
+- [FileAPI](https://github.com/mailru/FileAPI)
+
+#### 编码
+
+- [editorconfig](http://editorconfig.org/)
+
+
+### 开发工具
+
+- [json-server](https://github.com/typicode/json-server)
+- [dora](https://github.com/dora-js/dora) dora 是一个开发服务器，通过插件的方式集合各种调试方案，比如 webpack、livereload、browsersync、数据 mock、本地代理、weinre、jsonapi 等等。
+	- [dora-plugin-proxy](https://github.com/dora-js/dora-plugin-proxy)
+- [LiveReload](http://livereload.com/)
+- [JSON API](http://jsonapi.org/) [JSON API CN](http://jsonapi.org.cn/) JSON API 用 JSON 构建 API 的标准指南
+- [jsonohyeah](http://www.jsonohyeah.com/) JSON-Editor-Mocker
+
+
+### 调试
+
+- [端开发中的JS调试技巧](http://www.cnblogs.com/miragele/p/5394396.html)
+
+
 ### 调试工具
 
 - [DebugGap](http://www.debuggap.com/)
 - [Browsersync](https://www.browsersync.io/)
 
+proxy server
+
+- Chrome 下通过插件 SwitchyOmega 实现，详见[在线调试](https://github.com/dora-js/dora-plugin-proxy/blob/master/docs/online-debug.md)
+- iOS 下通过配系统代理
+- Android 下通过 [ProxyDroid](https://play.google.com/store/apps/details?id=org.proxydroid) 实现
+
+
+### 前端错误、监控
+
+- [javascript-error-monitor](http://rapheal.sinaapp.com/2014/11/06/javascript-error-monitor/)
+
+
+
+### 测试工具
+
+- [Mocha](http://mochajs.org/)
+- [Chai](http://chaijs.com/)
+- [Sinon.JS](http://sinonjs.org/)
+
+
 ### 构建
 
 - [Yeoman](http://yeoman.io/)
 - [Webpack](http://webpack.github.io/)
+  - [webpack-doc](https://github.com/liunian/webpack-doc/blob/master/SUMMARY.md)
   - [Webpack 中文指南](https://github.com/zhaoda/webpack-handbook)
   - [Webpack 入门指迷](https://segmentfault.com/a/1190000002551952)
+  - [WebpackBin](http://www.webpackbin.com/)
 - [FIS](http://fis.baidu.com/)
 - [gulp](http://gulpjs.com/)
 - [Grunt](http://gruntjs.com/)
   - [Grunt 中文网](http://gruntjs.cn/)
+- [tinypng](https://tinypng.com/) 图片压缩
+
 
 #### 优化
 
@@ -154,6 +236,7 @@
 ### JS前端模板引擎
 
 - [template.js](https://github.com/yanhaijing/template.js) 一款javascript模板引擎，简单，好用。
+- [artTemplate](https://github.com/aui/artTemplate)
 
 ### Node模板
 
@@ -170,8 +253,15 @@
 - [Hammer.js](http://hammerjs.github.io/) JavaScript 多点触控手势库。
 
 
+### Scroll
+
+- [iscroll](https://github.com/cubiq/iscroll)
+- [xscroll](https://github.com/huxiaoqi567/xscroll)
+
+
 ### 轮播图&画廊
 
+- [Swipe](https://github.com/thebird/Swipe) Swipe 是最准确的触摸滑块。
 - [swiper](https://github.com/wechatui/swiper) 为移动端而生的滑动框架，无依赖，轻盈小巧，性能极致(weui)
 - [ItemSlide.js](http://itemslide.github.io/) 同时支持触摸滑动以及鼠标滚动的JavaScript轮播图库。
 - [lory.js](http://meandmax.github.io/lory/) 使用vanilla JavaScript编写的简单的触摸式滑块工具。
@@ -189,8 +279,8 @@
 
 - [Awesomplete](http://leaverou.github.io/awesomplete/) 超轻量级、高度可定制化的自动补全jQuery插件。
 - [Submitter](http://fengyuanchen.github.io/submitter/) 简单的jQuery表单提交插件。
-- [Select or Die](http://vst.mn/selectordie/) 为<select>元素设置样式的jQuery插件。
-- [jQuery Nice Select](http://hernansartorio.com/jquery-nice-select/) 把原生<select>样式替换为可定制的下拉菜单的轻量级jQuery插件。
+- [Select or Die](http://vst.mn/selectordie/) 为 select元素设置样式的jQuery插件。
+- [jQuery Nice Select](http://hernansartorio.com/jquery-nice-select/) 把原生 select样式替换为可定制的下拉菜单的轻量级jQuery插件。
 - [datedropper](http://felicegattuso.com/projects/datedropper/) 提供管理日期输入字段的jQuery插件。
 - [Instantsearch.js](https://community.algolia.com/instantsearch.js/) 用于高性能即时搜索的插件。
 
@@ -207,7 +297,10 @@
 - [mo.js](https://github.com/legomushroom/mojs) motion graphics toolbelt for the web。
 - [jQuery.smoothState.js](https://github.com/miguel-perez/smoothState.js) 不显眼的页面过渡jQuery插件
 - [Move.js](http://visionmedia.github.io/move.js/) 如果你操作过css3的属性，一定会觉得非常痛苦的，那不如来试试合格，css3动画瞬间变得简单了。
+- [CSS动画汉堡包](https://github.com/jonsuh/hamburgers)
 
+
+- [CountUp.js](https://github.com/inorganik/CountUp.js) [效果](http://inorganik.github.io/countUp.js/) 数据递增效果
 
 ### 辅助工具
 
@@ -224,14 +317,20 @@
 - 代码覆盖率用 istanbul，
 
 
-### 在线画图
+### 在线工具
 
 - [ProcessOn](https://www.processon.com/)
+- [png 图片压缩](https://tinypng.com/)
+- [CSS3 Keyframes Animation Generator](http://cssanimate.com/) 在线制作css动画
+
+
 
 ### 日期
 
+- [日期兼容性](http://dygraphs.com/date-formats.html) 日期兼容性
 - [My97 DatePicker](http://www.my97.net/)
 - [lCalendar移动端日期时间选择控件](https://github.com/aidenzou/lCalendar)
+
 
 ### 图形与图表
 
@@ -251,17 +350,38 @@
 - [Flexbugs](https://github.com/philipwalton/flexbugs) Flexbox常见问题及狂浏览器解决方案
 - [favico.js](http://lab.ejci.net/favico.js/) 在favico上添加数字是不是很nice，点击下面的官网查看效果，这肯定要逼死强迫症了。
 
-## CSS
 
+### 适配
+
+- [从网易与淘宝的font-size思考前端设计稿与工作流](http://www.cnblogs.com/lyzg/p/4877277.html)
+- [【原】pageResponse - 让H5适配移动设备全家(移动端适配)](http://www.cnblogs.com/PeunZhang/p/4517864.html)
+ 
+ 
 - [结合BEM和SUIT方法使用PostCSS](http://www.w3cplus.com/PostCSS/using-postcss-with-bem-and-suit-methodologies.html)
 
-#### CSS重置
+- [background系列之你不知道的background-position](http://blog.doyoe.com/2016/03/28/css/background%E7%B3%BB%E5%88%97%E4%B9%8B%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84background-position/)
+
+- [前端文本截断](http://efe.baidu.com/blog/text-truncating/)
+
+### 动画
+
+- [Animate.css](http://daneden.github.io/animate.css/)[github](https://github.com/daneden/animate.css)
+
+#### CSS
 
 - [Normalize CSS](https://github.com/necolas/normalize.css)
 - [Reset CSS](http://meyerweb.com/eric/tools/css/reset/)
 
   > 它俩的区别：http://segmentfault.com/q/1010000000117189
   > 推荐用 Normalize CSS
+
+- [CSS 图片滤镜](http://una.im/CSSgram/)
+- [css实现多边形](http://docs.79px.com/single-div/#/) css实现多边形
+
+##### doc
+
+- [用 CSS 隐藏页面元素的 5 种方法](http://www.zcfy.cc/article/457)
+
 
 #### PostCSS
 
@@ -304,11 +424,17 @@
 
 ## 坑
 
+- [在IOS7上实现0.5px的border](http://blog.yaobieting.com/me/archives/zero-point-five-px-border.html) [demo](http://s.codepen.io/aidenzou/debug/vGVjVw)
+
 ### [300 毫秒点击延迟的来龙去脉](http://thx.github.io/mobile/300ms-click-delay/)
 
 - [fastclick](https://github.com/ftlabs/fastclick)
 - [tappy](https://github.com/filamentgroup/tappy/)
 - [tap.js](https://github.com/alexgibson/tap.js)
+
+
+### Mac下Chrome手机模拟器里网页字号bug
+[Font Boosting](https://github.com/amfe/article/issues/10)
 
 
 ## Node
@@ -327,6 +453,13 @@
 - [Webot](https://github.com/node-webot) 微信公共平台
 - [Nodemailer](https://github.com/nodemailer/nodemailer) 邮件模块
 
+
+文章：
+
+- [Node.js 在双十一中有哪些应用，表现如何？](https://www.zhihu.com/question/37379084)
+
+
+
 ## 模板
 
 - [Jade](https://github.com/pugjs/jade) [语法文档](http://naltatis.github.io/jade-syntax-docs/)
@@ -337,37 +470,83 @@
 - [React Native](http://www.reactnative.com/)
 - [Cordova](http://cordova.apache.org/)
 - [PhoneGap](http://phonegap.com/)
+- [Xamarin](http://xamarin.com/)
+- [Xuni](http://www.goxuni.com/cn/)
 - [Titanium](http://www.appcelerator.com/product/)
 - [Ionic](http://ionicframework.com/)
 - [MUI](https://github.com/dcloudio/mui/)
 - [APICloud](http://www.apicloud.com/)
 
-- [weex] 淘宝团队基于 vue开发，暂未开源
+- [weex](http://alibaba.github.io/weex/index.html) 淘宝团队基于 vue开发，暂未开源
 
 - [Hybrid APP架构设计思路](https://github.com/chemdemo/chemdemo.github.io/issues/12)
 
-- [WebViewJavascriptBridge](https://github.com/marcuswestin/WebViewJavascriptBridge) *****
+- [WebViewJavascriptBridge](https://github.com/marcuswestin/WebViewJavascriptBridge) WebViewJavascriptBridge for IOS
+- [WebViewJavascriptBridge for Android](https://github.com/jesse01/WebViewJavascriptBridge) WebViewJavascriptBridge for Android
+
+
+- [Meteor](https://www.meteor.com/)
+	- [Atmosphere](https://atmospherejs.com/) Meteor扩展资源包
 
 
 ## 后台管理模板
 
+- [admin template list](https://wrapbootstrap.com/tag/admin-template)
+
+- [inspinia_admin](http://webapplayers.com/inspinia_admin-v2.5/md_skin/)
+- [hplus](http://www.zi-han.net/theme/hplus/)
 - [AdminLTE](https://github.com/almasaeed2010/AdminLTE)
 - [SB Admin](https://github.com/BlackrockDigital/startbootstrap-sb-admin)
 - [SB Admin 2](https://github.com/BlackrockDigital/startbootstrap-sb-admin-2)
-- [hplus](http://www.zi-han.net/theme/hplus/)
+- [Blur Admin](https://github.com/akveo/blur-admin)
 
 
 ## 工具
 
 - [在线 H5场景](http://h5.baidu.com/store)
+- [open5](http://open5.net/) 阿里有一个支持在线编辑的H5 Silder
+- [易速推](http://www.yisutui.com/) 易速推-免费制作微信h5游戏
 - [httpie](https://github.com/jkbrzt/httpie) CLI HTTP client
+
+
+### Markdown
+
+- [Markcook--简洁、高效的markdown编辑器](https://github.com/jrainlau/markcook)
+
+
 
 ### Mock数据
 - [Mock.js](http://mockjs.com/) 生成随机数据，拦截 Ajax 请求
 	- [demo](http://codepen.io/aidenzou/pen/EKKZwK)
+- [RAP](https://github.com/thx/RAP)
 
 
 ## 游戏引擎
 
 - [Hilo](https://github.com/hiloteam/Hilo) 阿里巴巴集团开发的跨年底HTML5游戏开发解决方案
+
+
+## 存储
+
+- [Realm](https://realm.io/)
+
+---
+
+
+Ajax 替代方案 Fetch API 是基于 Promise 设计
+
+- [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch)
+	`npm install --save isomorphic-fetch es6-promise`
+
+## promise
+
+- [callback hell](http://ww2.sinaimg.cn/large/8144ca8cgw1f2wc9ed35zj218g0p0tey.jpg)
+- [如何把 Callback 接口包装成 Promise 接口](http://welefen.com/post/how-to-convert-callback-to-promise.html)
+
+
+## Server
+
+http-server
+python -m SimpleHTTPServer
+
 
