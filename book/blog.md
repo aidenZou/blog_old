@@ -23,5 +23,6 @@
 	- [构建单页Web应用](https://github.com/xufei/blog/issues/5)
 	- [Web应用的组件化](https://github.com/xufei/blog/issues/6)
 	- [Angular的变革](https://github.com/xufei/blog/issues/25)
+	- [[聊一聊系列]聊一聊移动web分辨率的那些事儿](https://segmentfault.com/a/1190000005884985)
 
 

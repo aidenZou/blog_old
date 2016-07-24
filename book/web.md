@@ -84,6 +84,10 @@
 ##### MVV*
 
 - [Angular](https://github.com/angular/angular)
+	- [Angular面试从喜剧到悲剧的十个问题](https://segmentfault.com/a/1190000005817928)
+	- [Angular Material](https://github.com/angular/material)
+- [Angular2]
+- [Angular CLI](https://cli.angular.io/)
 - [Avalon](https://github.com/RubyLouvre/avalon)
 - [Vue](https://github.com/vuejs/vue)
   - [Vue资料总汇](http://www.jianshu.com/p/afd8e1db7d9b)
@@ -91,6 +95,8 @@
   - [VUE-devtools](https://github.com/vuejs/vue-devtools) 调试工具 Chrome的扩展
   - [Vue.js相关](https://github.com/vuejs/awesome-vue)
   - [vue-mui](https://github.com/creatshare/vue-mui)
+  - [vue-mobile](https://github.com/lihongxun945/vue-mobile)
+  - [Mint UI](https://github.com/ElemeFE/mint-ui/)
 
 ##### Other
 
@@ -140,7 +146,8 @@
 - [Mobiscroll](http://www.mobiscroll.com/)
 - [Moment](http://momentjs.cn/) JavaScript 日期处理类库
 - [QRCode](https://github.com/davidshimjs/qrcodejs)
-- [](https://github.com/hubspot/offline) 自动显示在线/离线显示给用户
+- [offline](https://github.com/hubspot/offline) 自动显示在线/离线显示给用户
+- [Intro.js](https://github.com/usablica/intro.js) 新功能介绍和一步一步的用户指南
 
 
 #### 下载
@@ -158,10 +165,11 @@
 
 - [json-server](https://github.com/typicode/json-server)
 - [dora](https://github.com/dora-js/dora) dora 是一个开发服务器，通过插件的方式集合各种调试方案，比如 webpack、livereload、browsersync、数据 mock、本地代理、weinre、jsonapi 等等。
-	- [dora-plugin-proxy](https://github.com/dora-js/dora-plugin-proxy)
+	- [dora-plugin-proxy](https://github.com/dora-js/dora-plugin-proxy) 模拟api
 - [LiveReload](http://livereload.com/)
 - [JSON API](http://jsonapi.org/) [JSON API CN](http://jsonapi.org.cn/) JSON API 用 JSON 构建 API 的标准指南
 - [jsonohyeah](http://www.jsonohyeah.com/) JSON-Editor-Mocker
+- [图像 to SVG](http://image.online-convert.com/convert-to-svg)
 
 
 ### 调试
@@ -215,7 +223,7 @@ proxy server
 
 ### 计算
 
-- [lodash](https://lodash.com/) [中文文档](http://lodash.qiuqudou.com/)
+- [lodash](https://lodash.com/) [中文文档](http://lodash.qiuqudou.com/) [中文文档](http://lodash.think2011.net/)
 - [Underscore.js](https://github.com/jashkenas/underscore) [中文文档](http://www.css88.com/doc/underscore/)
 - [linq.js](http://linqjs.codeplex.com/)
 - [mathjs](https://github.com/josdejong/mathjs) js自带的数学运算不能满足你的需求了，那试试这个，扩展了很多数学运算。
@@ -255,7 +263,7 @@ proxy server
 
 ### Scroll
 
-- [iscroll](https://github.com/cubiq/iscroll)
+- [iscroll](https://github.com/cubiq/iscroll) [iScroll 5 API 中文版](https://iiunknown.gitbooks.io/iscroll-5-api-cn/content/)
 - [xscroll](https://github.com/huxiaoqi567/xscroll)
 
 
@@ -316,6 +324,8 @@ proxy server
 - 集成测试有 CasperJS/Nightwatch
 - 代码覆盖率用 istanbul，
 
+- [Web 前端开发规范文档](http://codecloud.net/5622.html)
+
 
 ### 在线工具
 
@@ -343,6 +353,8 @@ proxy server
 - [plotly.js](https://plot.ly/javascript/) 高级、开源的图表库。
 - [Textures.js](http://riccardoscalco.github.io/textures/) 使用SVG元素实现数据可视化。
 
+- [带你轻松打开SVG动画的大门](https://isux.tencent.com/svg-animate.html) [SVG效果](http://s.codepen.io/aidenzou/debug/NrRRGx)
+
 
 ### 另类
 
@@ -355,6 +367,7 @@ proxy server
 
 - [从网易与淘宝的font-size思考前端设计稿与工作流](http://www.cnblogs.com/lyzg/p/4877277.html)
 - [【原】pageResponse - 让H5适配移动设备全家(移动端适配)](http://www.cnblogs.com/PeunZhang/p/4517864.html)
+- [REM：web app适配的秘密武器](http://gold.xitu.io/post/577a78130a2b58393762fba1?utm_source=gold_browser_extension&utm_medium=extension)
  
  
 - [结合BEM和SUIT方法使用PostCSS](http://www.w3cplus.com/PostCSS/using-postcss-with-bem-and-suit-methodologies.html)
@@ -377,10 +390,17 @@ proxy server
 
 - [CSS 图片滤镜](http://una.im/CSSgram/)
 - [css实现多边形](http://docs.79px.com/single-div/#/) css实现多边形
+- [Hover](https://github.com/IanLunn/Hover) button hover效果
+
+- [使用 BEM 来模块化你的 CSS 代码](https://github.com/yllziv/gold-miner/blob/0545680eecd9cf497309c3d4fdcd7d201e1f54b7/TODO/how-we-use-bem-to-modularise-our-css.md)
+- [什么鬼，又不知道怎么命名class了](http://mp.weixin.qq.com/s?__biz=MzI3MDE0MzAzMw==&mid=2652201884&idx=1&sn=15193ebd41d34cb093afdad3a85526e8&scene=0#wechat_redirect)
+
 
 ##### doc
 
 - [用 CSS 隐藏页面元素的 5 种方法](http://www.zcfy.cc/article/457)
+- [掘金翻译计划](https://github.com/xitu/gold-miner)
+- [异步脚本载入提高页面性能](http://harttle.coding.me/2016/05/18/async-javascript-loading.html)
 
 
 #### PostCSS
@@ -421,6 +441,11 @@ proxy server
 
 
 - [aliyun-UED Open5](https://github.com/aliyun-UED/open5) Open5 - 基于阿里云 Open API 的开源 H5 生成工具
+
+#### 视屏
+
+- [Vidage](https://github.com/dvLden/Vidage) Vidage.js - 网页背景视频 / 图片
+
 
 ## 坑
 
@@ -512,7 +537,8 @@ proxy server
 ### Markdown
 
 - [Markcook--简洁、高效的markdown编辑器](https://github.com/jrainlau/markcook)
-
+- [kramdown](http://kramdown.gettalong.org/)
+- [HyperDown](https://github.com/SegmentFault/HyperDown)
 
 
 ### Mock数据
@@ -543,10 +569,28 @@ Ajax 替代方案 Fetch API 是基于 Promise 设计
 - [callback hell](http://ww2.sinaimg.cn/large/8144ca8cgw1f2wc9ed35zj218g0p0tey.jpg)
 - [如何把 Callback 接口包装成 Promise 接口](http://welefen.com/post/how-to-convert-callback-to-promise.html)
 
+- [JavaScript Promise迷你书（中文版）](http://liubin.org/promises-book/)
+
 
 ## Server
 
-http-server
-python -m SimpleHTTPServer
+常用脚本语言下开启简易 web server的方法
 
+```
+http-server -p 8080
+ruby -run -e httpd . -p 9090
+python -m SimpleHTTPServer 8000
+php -S 127.0.0.1:8088 router.php
+```
+
+browser
+
+```
+browser-sync start --proxy "192.168.1.222:8001" --files "templates/**" "static/**"
+```
+
+## 内网
+
+- 花生壳
+- [ngrok](https://ngrok.com/) 内网穿透利器
 

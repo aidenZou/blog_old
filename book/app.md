@@ -48,6 +48,8 @@ https://letsencrypt.org/
 - [PP鸭](http://ppduck.com/) 图片压缩神器，帮你的图片减减肥
 - [Pixel Winch（精确 UI 测距）](http://www.ricciadams.com/projects/pixel-winch)
 
+- [alfredworkflow](http://alfredworkflow.com/)
+
 - [Sketch] Sketch UI设计
 
 	[Sketch3-中文手册](http://uiweek.com/#PhotoSwipe1458969734370)

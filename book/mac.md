@@ -67,6 +67,27 @@ autojump v22.2.4
 [iTerm2 指南](http://wdxtub.com/2016/03/20/iterm2-guide/)
 
 
+## 好使
+
+#### 查看安装目录
+which node
+
+#### 查看文件夹体积大小并排序
+
+- linux
+
+du -sh node-sass	# 指定文件夹体积
+du -sh *				# 当前目录下所有文件夹体积
+du -sh * | sort -n -r	# 排序
+
+- mac
+
+安装 gsort
+brew install coreutils
+du -sh * | gsort -h		# 体积 小 -> 大
+du -sh * | gsort -hr	# 体积 大 -> 小
+
+
 ## 命令行启动 Sublime Text
 
 命令行启动 Sublime Text 
@@ -74,4 +95,24 @@ autojump v22.2.4
 
 打开当前目录下文件 
 `subl .`
+
+
+
+## Mac OS X取消Apache(httpd)开机启动
+
+`sudo launchctl unload -w /System/Library/LaunchDaemons/org.apache.httpd.plist`
+
+如果哪天你想让它开机启动了,则将 `unload` 改为 `load`:
+
+`sudo launchctl load -w /System/Library/LaunchDaemons/org.apache.httpd.plist`
+
+launchd是Mac OS下，用于初始化系统环境的关键进程。类似Linux下的init, rc.此方法同样也适用于禁用系统的一些服务,比如打印机,蓝牙等.
+
+
+## nginx
+
+`brew install nginx`
+
+nginx的配置文件在：/usr/local/etc/nginx/nginx.conf
+查看目前的nginx进程：`ps -ef|grep nginx`
 

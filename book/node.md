@@ -3,6 +3,18 @@
 - [cnpm](https://cnpmjs.org/) 淘宝
 - [rednpm](http://npm.mirror.cqupt.edu.cn/) 部署于 中国教育和科研计算机网 (CERNET) 重庆 - 重庆邮电大学节点
 
+- [npm模块管理器](http://javascript.ruanyifeng.com/nodejs/npm.html)
+
+- npm cache clear 可以清空NPM本地缓存，用于对付使用相同版本号发布新版本代码的人。
+
+- http-server
+- webpack
+- gulp
+- yo
+- vue-cli
+- antd-init
+- express
+
 
 ## 教程
 
@@ -13,6 +25,7 @@
 
 
 - [nodemon](https://github.com/remy/nodemon)
+- [forever] forever是一个Node应用程序，用于一个子进程意外退出时，自动重启。
 - [PM2](https://github.com/Unitech/pm2) 用PM2守护Node.js进程，PM2相比以前的Forever有更强大的进程管理功能。
 
 - [log4js](https://github.com/nomiddlename/log4js-node)
@@ -52,4 +65,13 @@ pm2 startup centos
 保存设置（非常重要）
 pm2 save
 
+
+
+### 模块
+
+- [cheerio](https://github.com/cheeriojs/cheerio)
+
+### 模板
+
+- [Nunjucks](https://github.com/mozilla/nunjucks)
 

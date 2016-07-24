@@ -45,6 +45,8 @@ pip install [options] -r <requirements file> [package-index-options] ...
 - [Markdown](http://pythonhosted.org/Markdown/siteindex.html) [扩展](https://pythonhosted.org/Markdown/extensions/index.html) markdown2html
 - [misaka](https://github.com/FSX/misaka) markdown2html
 
+- [You-Get](https://github.com/soimort/you-get) 命令行实用程序从网络下载媒体内容（视频，音频，图像）
+
 https://github.com/vmg/sundown
 
 ## CentOS
@@ -150,4 +152,10 @@ supervisorctl reload
 ngin
 
 /etc/nginx/conf.d/nginx.conf
+
+
+### Web服务
+
+python -m SimpleHTTPServer
+
 

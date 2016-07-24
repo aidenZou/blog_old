@@ -2,8 +2,11 @@
 
 - [touchstonejs.io](http://touchstonejs.io/)
 
+- [JS.coach](https://js.coach/)
 
 ## React
+
+- [Create React apps](https://github.com/facebookincubator/create-react-app)
 
 - [react-guide](https://github.com/react-guide)
 - [React-lite](https://github.com/Lucifier129/react-lite) react 精简版（20kb）
@@ -17,6 +20,8 @@
 - [通往全栈工程师的捷径 —— react - 腾讯bugly - 博客园](http://www.cnblogs.com/bugly/p/4988842.html)
 - [A new Webpack boilerplate with hot reloading React components, and error handling on module and component level.](https://github.com/gaearon/react-transform-boilerplate)
 
+- [DevTools](https://github.com/gaearon/redux-devtools) redux-devtools
+
 
 全家桶
 
@@ -24,15 +29,34 @@
 - [graphql]()
 - [relay]()
 - [Redux](https://github.com/reactjs/redux) [Redux 中文文档](http://cn.redux.js.org/)
+	- [redux-thunk](https://github.com/gaearon/redux-thunk)
+	- [redux-promise](https://github.com/acdlite/redux-promise)
+	- [redux-saga](http://yelouafi.github.io/redux-saga)
+- [mobx](https://github.com/mobxjs/mobx)
 - [Immutable](https://github.com/facebook/immutable-js/) [Immutable](https://facebook.github.io/immutable-js/) [搞定immutable.js](https://boke.io/immutable-js/)
 	- [Immutable 详解及 React 中实践](https://segmentfault.com/a/1190000003910357)
 
+> 共享的可变性状态乃万恶之源。 —— Pete Hunt, React.js Conf 2015
+> 不可变对象是一种在创建之后就不可修改的对象。
+> 不可变对象可以让我们免于痛楚，并通过引用级别的比对检查来改善渲染性能 。
+
+- [Baobab](https://github.com/Yomguithereal/baobab)
+
+- [Normalizes](https://github.com/paularmstrong/normalizr) 嵌套资源 保持状态扁平化
+
+
+### 例子
+
+- [react-boilerplate](https://github.com/mxstbr/react-boilerplate)
+- [generator-duxedo](https://github.com/127labs/generator-duxedo)
+- [mern](http://mern.io/)
 
 
 ### UI
 
 - [ant.design](http://ant.design/)
 - [ant-tool](http://ant-tool.github.io/index.html)
+- [uxcore](https://github.com/uxcore/uxcore) [官网](http://uxco.re/)
 
 ### 案例
 
@@ -89,7 +113,8 @@
 - [二级菜单](https://github.com/vczero/react-native-tab-menu)
 - [tab-view](https://github.com/brentvatne/react-native-scrollable-tab-view)
 - [icons](https://github.com/oblador/react-native-vector-icons)
-- [](https://github.com/aksonov/react-native-tableview)
+- [react-native-tableview](https://github.com/aksonov/react-native-tableview)
+- [react-native-swipeout](https://github.com/dancormier/react-native-swipeout)
 
 - [第三方知乎](https://github.com/race604/ZhiHuDaily-React-Native)
 - [新鲜出炉的基于RN的APP](http://bbs.reactnative.cn/topic/192/%E6%96%B0%E9%B2%9C%E5%87%BA%E7%82%89%E7%9A%84%E5%9F%BA%E4%BA%8Ern%E7%9A%84app)

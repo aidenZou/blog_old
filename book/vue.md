@@ -25,6 +25,7 @@
 - [Keen-UI](https://github.com/JosephusPaye/keen-ui)
 - [Mint UI](https://github.com/ElemeFE/mint-ui)
 - [Vux](https://github.com/airyland/vux)
+- [Mint UI](http://mint-ui.github.io/#!/zh-cn) 饿了么
 
 
 ## vue-cli

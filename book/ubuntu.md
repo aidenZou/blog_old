@@ -21,4 +21,12 @@ $ service nginx stop # 停止
 $ service nginx restart # 重启
 ```
 
+```
+/www/develop/nginx/sbin/nginx -c /www/develop/nginx/conf/nginx.conf -s reload
+```
+
+
+### 服务器配置
+
+https://mozilla.github.io/server-side-tls/ssl-config-generator/
 
