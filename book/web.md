@@ -561,8 +561,9 @@ proxy server
 
 Ajax 替代方案 Fetch API 是基于 Promise 设计
 
+- [Promise based HTTP](https://github.com/mzabriskie/axios)
 - [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch)
-	`npm install --save isomorphic-fetch es6-promise`
+- [fetch](https://github.com/github/fetch)
 
 ## promise
 
