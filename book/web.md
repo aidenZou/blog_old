@@ -221,13 +221,19 @@ proxy server
 
 - [pagespeed](https://developers.google.com/speed/pagespeed/insights/)
 
-### 计算
+### 数据
 
 - [lodash](https://lodash.com/) [中文文档](http://lodash.qiuqudou.com/) [中文文档](http://lodash.think2011.net/)
 - [Underscore.js](https://github.com/jashkenas/underscore) [中文文档](http://www.css88.com/doc/underscore/)
+- [Lazy.js](https://github.com/dtao/lazy.js)
 - [linq.js](http://linqjs.codeplex.com/)
 - [mathjs](https://github.com/josdejong/mathjs) js自带的数学运算不能满足你的需求了，那试试这个，扩展了很多数学运算。
 - [bignumber.js](http://mikemcl.github.io/bignumber.js/)
+
+- [Ramda](https://github.com/ramda/ramda)
+- [flyd](https://github.com/paldepind/flyd)
+- [Immutable.js](https://github.com/facebook/immutable-js)
+
 
 ### 组件
 
@@ -387,6 +393,8 @@ proxy server
 
   > 它俩的区别：http://segmentfault.com/q/1010000000117189
   > 推荐用 Normalize CSS
+
+- [tachyons](https://github.com/tachyons-css/tachyons)
 
 - [CSS 图片滤镜](http://una.im/CSSgram/)
 - [css实现多边形](http://docs.79px.com/single-div/#/) css实现多边形
@@ -561,7 +569,8 @@ proxy server
 
 Ajax 替代方案 Fetch API 是基于 Promise 设计
 
-- [Promise based HTTP](https://github.com/mzabriskie/axios)
+- [axios](https://github.com/mzabriskie/axios)
+- [SuperAgent](https://github.com/visionmedia/superagent)
 - [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch)
 - [fetch](https://github.com/github/fetch)
 

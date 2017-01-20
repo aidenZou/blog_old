@@ -11,6 +11,36 @@
 - [QQ浏览器X5内核问题汇总](https://www.qianduan.net/qqliu-lan-qi-x5nei-he-wen-ti-hui-zong/)
 
 
+### WKWebview
+
+- [iOS WKWebview 网页开发适配指南](https://mp.weixin.qq.com/wiki?id=mp1483682025_enmey)
+
+
+### webpack
+
+- [如何开发一个 Webpack Loader ( 一 ) ](https://github.com/joeyguo/blog/issues/4)
+
+
+### 函数式编程
+
+- [谈谈函数式编程](https://github.com/joeyguo/blog/issues/10)
+
+#### RxJS
+
+- [构建流式应用—RxJS详解](https://github.com/joeyguo/blog/issues/11)
+- [流动的数据——使用 RxJS 构造复杂单页应用的数据逻辑](https://zhuanlan.zhihu.com/p/23305264?refer=xufei) 民工叔叔家的田-徐飞
+
+
+### Vue
+
+- [vue-mixins使用注意事项和高级用法](https://www.deboy.cn/Vue-mixins-advance-tips.html)
+
+
+### React
+
+- [从 React 谈 Web UI 开发](https://lutaonan.com/blog/react-and-the-way-building-web-ui/)
+
+
 ### 其它
 
 - [meta标签常用属性整理](https://www.qianduan.net/meta-tags-list/)
