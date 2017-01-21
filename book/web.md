@@ -541,6 +541,12 @@ proxy server
 - [易速推](http://www.yisutui.com/) 易速推-免费制作微信h5游戏
 - [httpie](https://github.com/jkbrzt/httpie) CLI HTTP client
 
+### vim
+
+- [spf13-vim](https://github.com/spf13/spf13-vim)
+- [k-vim](https://github.com/wklken/k-vim)
+- [space-vim](https://github.com/liuchengxu/space-vim)
+
 
 ### Markdown
 
