@@ -49,3 +49,38 @@ docker build -t ipython/notebook .
 `docker run -p 80:80 my-front-end-app`
 `docker run -d -p 8888:8888 -e PASSWORD=admin ipython/notebook`
 
+
+
+## 事例
+
+app.js
+
+```
+console.log('hello, docker');
+```
+
+然后运行docker：
+
+```
+docker run --rm -v "$(pwd)":/app -w /app nodejs:latest sh -c 'node app.js'
+```
+
+这个时候应该输出：`hello, docker`
+
+这个docker在运行结束后会自动关闭（--rm），docker的这一特性也提供了按需使用的方式。
+
+正式的开发环境可以选择supervisor（监听程序更改并重启node程序）代替node命令，并把-rm命令去掉，这样就只需要输入一次命令进行调试了：
+
+```
+docker run -v "$(pwd)":/app -w /app nodejs-supervisor:latest sh -c 'supervisor app.js'
+```
+
+多说一句，生产环境不建议使用supervisor，建议使用pm2。
+
+端口暴露
+Web程序都是有端口的，使用docker仅需要一个-p命令进行暴露即可：
+
+```
+docker run --rm -v "$(pwd)":/app -p 8080:8080 -w /app nodejs:latest sh
+```
+
